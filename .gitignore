@@ -36,7 +36,8 @@
 #nothing from these folders
 AI/*
 GIS/*
-Images/*
+Images/Logo/*
+Images/Story/*
 Graphics/*
 Data/*
 Dataout/*
