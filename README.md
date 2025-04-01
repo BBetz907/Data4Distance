@@ -11,10 +11,10 @@
 
 
 Garmin and Strava archives need only to be downloaded and placed in the project Data folder to update the data. Garmin data can take up to 24 hours following your request and can be obtained by selecting Export Your Data from the [Account Management page](https://www.garmin.com/en-US/account/datamanagement/) on Garmin Connect. <br>
-![Garmin - Export Your Data](Images\Garmin Export Your Data.png)<br>
+![Garmin - Export Your Data](Images/Garmin Export Your Data.png)<br>
 <br>
 Strava activity data can be obtained in a few hours from the [Account Deletion page](https://www.strava.com/athlete/delete_your_account) without actually deleting the account. It can only be downloaded once per week.<br>
-![Strava - Request Your Archive](Images\Strava Request Your Archive.png)
+![Strava - Request Your Archive](Images/Strava Request Your Archive.png)
 <br>
 <br>
 The following scripts are run to accomplish the necessary cleaning, transformations, and concealments:
