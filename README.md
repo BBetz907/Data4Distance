@@ -2,9 +2,15 @@
 
 Data4Distance leverages data from Strava and Garmin Connect, initially collected using a Garmin smartwatch (2019-) and prior to that the Runkeeper app (2016-2019). The project contains files used to process these data and protect location data. Visualization projects using these data can be found on Tableau Public:
 
-[**Shoe Journeys**](https://public.tableau.com/app/profile/datadventures/viz/Shoejourneys/Shoebiographies) an interactive dashboard featuring maps and charts hosted on Tableau Public
+##### [Shoe Journeys](https://public.tableau.com/app/profile/datadventures/viz/Shoejourneys/Shoebiographies)
 
-[**My Running Journey**](https://public.tableau.com/app/profile/datadventures/viz/MyRunningJourney/Thebeginningofthejourney) a narrative data exploration hosted on Tableau Public - a *Quarto version is forthcoming*
+-   an interactive dashboard featuring maps and charts hosted on Tableau Public
+
+
+##### [My Running Journey](https://public.tableau.com/app/profile/datadventures/viz/MyRunningJourney/Thebeginningofthejourney)
+
+-   a narrative data exploration hosted on Tableau Public - a *Quarto version is forthcoming*
+<br>
 
 Garmin and Strava archives need only to be downloaded and placed in the project Data folder to update the data. Garmin data can take up to 24 hours following your request and can be obtained by selecting /Export Your Data from the [Account Management page](https://www.garmin.com/en-US/account/datamanagement/) on Garmin Connect. Strava activity data can be obtained in a few hours from the [Account Deletion page](https://www.strava.com/athlete/delete_your_account) without actually deleting the account. It can only be downloaded once per week.
 
@@ -25,4 +31,5 @@ The following scripts are run to accomplish the necessary cleaning, transformati
 <p style="margin-left: 20px;">**006_strava_activity_name_fixes.** removes selected personal information from activity names in the Strava activity and fields that might contain additional non-public information, should users wish to do so.</p>
 
 <p style="margin-left: 20px;">**007_output_activity_Data.R** exports gear, location, and activity data. It also cleans the environment.</p>
+
 ------------------------------------------------------------------------
