@@ -12,7 +12,7 @@ Data4Distance leverages data from Strava and Garmin Connect, initially collected
 -   a narrative data exploration hosted on Tableau Public - a *Quarto version is forthcoming*
 <br>
 
-Garmin and Strava archives need only to be downloaded and placed in the project Data folder to update the data. Garmin data can take up to 24 hours following your request and can be obtained by selecting /Export Your Data from the [Account Management page](https://www.garmin.com/en-US/account/datamanagement/) on Garmin Connect. Strava activity data can be obtained in a few hours from the [Account Deletion page](https://www.strava.com/athlete/delete_your_account) without actually deleting the account. It can only be downloaded once per week.
+Garmin and Strava archives need only to be downloaded and placed in the project Data folder to update the data. Garmin data can take up to 24 hours following your request and can be obtained by selecting /Export Your Data from the [Account Management page](https://www.garmin.com/en-US/account/datamanagement/) on Garmin Connect. Strava activity data can be obtained in a few hours from the [Account Deletion page](https://www.strava.com/athlete/delete_your_account) without actually deleting the account. After you request your data, Garmin and Strava email you a download file.
 
 The following scripts are run to accomplish the necessary cleaning, transformations, and concealments:
 
